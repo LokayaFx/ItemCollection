@@ -1,0 +1,10 @@
+name: ItemCollection
+version: 1.0
+main: app.vercel.lokaya_gfx.collectionsystem.CollectionSystemPlugin
+api-version: 1.21
+description: A custom robust Collection System Plugin
+authors: Lokayafx
+commands:
+  collection:
+    description: Opens the Collection GUI showing player progress or executing admin operations.
+    usage: /collection <view|stats|add|reset>
